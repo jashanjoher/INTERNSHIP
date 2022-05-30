@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+   
+    <title>
+        PAYMENT FORM
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <head>
+
+</head>
+<form>
+
+<h1 id="py"> PAYMENT FORM </h1>
+<h1 id="cnc" >Contact informaion</h1>
+<br>
+
+
+
+<div class="inline"> NAME: <input type="text" name="NAME"> 
+</div>
+<div class="inline"> Payment Type <input list="methods"name="Method" type="text" >
+    <datalist id="methods">
+        <option>raxor pay </option>
+        <option>cerdit card </option>
+        <option>phone pe</option>
+        
+    </datalist>
+</div>
+<hr>
+<fieldset>
+    <legend>Select Your Gender</legend>
+<p>
+    Male <input type="radio" name="gender" id="male">
+    Female <input type="radio" name="gender" id="female">
+    Binary<input type="radio" name="gender">
+    Non-Binary<input type="radio" name="gender">
+    prefer not to say<input type="radio" name="gender">
+</p>
+</fieldset>
+
+<p> Account Details:
+    <input class="details"name="details">
+    
+    </p>
+     Currency:<input list="details" name="currency" placeholder="Select">
+     <datalist id="details">
+         <option>USD</option>
+         <option>Rupee</option>
+         <option>AUD</option>
+         <option>EUR</option>
+         <option></option>    
+
+     </datalist>
+
+    Country <input list="lists" name="country" placeholder="Select Country">
+<datalist id="lists">
+    <option>china</option>
+    <option>india</option>
+    <option>usa</option>
+    <option>uae</option>
+    <option>indonesia</option>
+    <option>thailand</option>
+    <option>japan</option>
+    <option>malyaisa</option>
+    <option>russia</option>
+    <option>canada</option>
+    <option>london</option>
+    
+
+
+</datalist>
+       
+
+<p> EMAIL: <input type="email" class="mail"> </p>
+
+<p>PINCODE:     <input type="number" name="pincode" id="pincode"></p>
+<button>
+    SUBMIT
+</button>
+</form>
+
+</html>

@@ -1,0 +1,40 @@
+form{
+  background-color: beige;
+
+}
+.inline{
+  display: inline;
+  
+  margin: 5px 10px 5px 0;
+  
+}
+
+#cnc{ text-align: left;
+  display: inline-block;
+  
+
+}
+
+#py{
+  text-align: center;
+  text-size-adjust: 300dp;
+}
+#cnc{
+  text-align: left;
+  text-size-adjust: 200dp;
+}
+#currency{
+  display: inline;
+}
+
+.details{
+  border: 1px solid black;
+}
+button{
+  padding: 2px;
+  margin: 1px;
+  border-radius: 1px dotted black;
+  
+}
+
+
